@@ -35,14 +35,6 @@ code {
 h3 code {
   font-size: 24px;
 }
-h3 a {
-  text-decoration: none;
-  color: #fff;
-}
-h3 a:hover {
-  color: #ffc;
-  text-decoration: underline;
-}
 html,
 body {
   -webkit-transition: top 0.8s ease;
@@ -106,7 +98,7 @@ h4 {
   font-family: 'Bitter', serif;
 }
 h1 {
-  color: #ffc;
+  color: #224;
   font-size: 36px;
 }
 h2 {
@@ -115,6 +107,14 @@ h2 {
 }
 h3 {
   font-size: 24px;
+}
+h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+h3 a:hover {
+  color: #ffc;
+  text-decoration: underline;
 }
 h4 {
   font-size: 16px;
@@ -234,7 +234,7 @@ body {
 }
 body #toc {
   text-align: center;
-  margin: auto;
+  margin: 10% auto auto auto;
 }
 body header {
   text-align: center;
