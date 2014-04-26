@@ -35,6 +35,13 @@ code {
 h3 code {
   font-size: 24px;
 }
+h3 a {
+  color: #ff0;
+  text-decoration: none;
+}
+h3 a:hover {
+  color: #fff;
+}
 html,
 body {
   -webkit-transition: top 0.8s ease;
