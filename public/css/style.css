@@ -36,11 +36,12 @@ h3 code {
   font-size: 24px;
 }
 h3 a {
-  color: #ff0;
   text-decoration: none;
+  color: #fff;
 }
 h3 a:hover {
-  color: #fff;
+  color: #ffc;
+  text-decoration: underline;
 }
 html,
 body {
@@ -105,6 +106,7 @@ h4 {
   font-family: 'Bitter', serif;
 }
 h1 {
+  color: #ffc;
   font-size: 36px;
 }
 h2 {
@@ -218,11 +220,21 @@ nav.exercise ul li {
   white-space: nowrap;
   overflow: hidden;
 }
+html {
+  background: url("/images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  background-image: url("/images/background-mac.jpg");
   border: 0;
   margin: 0;
   padding: 50px;
+}
+body #toc {
+  text-align: center;
+  margin: auto;
 }
 body header {
   text-align: center;
@@ -231,7 +243,6 @@ body header p.section-name {
   color: #fff;
 }
 body header h1 {
-  color: #fff;
   margin: 4px 0 80px 0;
 }
 body .course {

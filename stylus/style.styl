@@ -60,10 +60,11 @@ h3
   code
     font-size 24px
   a
-    color yellow
     text-decoration none
+    color white
     &:hover
-      color white
+      color #ffc
+      text-decoration underline
 
 html, body
   -webkit-transition top 0.8s ease
@@ -115,6 +116,7 @@ h1, h2, h3, h4
   font-family font-family-header
 
 h1
+  color #ffc
   font-size 36px
 h2
   font-size 32px
@@ -204,8 +206,17 @@ nav.exercise
       overflow: hidden;      
 
 
+html
+  background: url(/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
 body
-  background-image url('/images/background-mac.jpg')
+  #toc
+    text-align: center
+    margin: auto
   border 0
   margin 0
   padding 50px
@@ -214,7 +225,6 @@ body
     p.section-name
       color white
     h1
-      color white
       margin 4px 0 80px 0
   .course
     background-color color-dark-grey
