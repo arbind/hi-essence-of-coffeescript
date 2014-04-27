@@ -98,7 +98,7 @@ h4 {
   font-family: 'Bitter', serif;
 }
 h1 {
-  color: #224;
+  color: #223;
   font-size: 36px;
 }
 h2 {
@@ -107,14 +107,6 @@ h2 {
 }
 h3 {
   font-size: 24px;
-}
-h3 a {
-  text-decoration: none;
-  color: #fff;
-}
-h3 a:hover {
-  color: #ffc;
-  text-decoration: underline;
 }
 h4 {
   font-size: 16px;
@@ -235,6 +227,20 @@ body {
 body #toc {
   text-align: center;
   margin: 10% auto auto auto;
+}
+body #toc h1 {
+  font-size: 48px;
+}
+body #toc h2 {
+  font-size: 40px;
+}
+body #toc h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+body #toc h2 a:hover {
+  color: #ffc;
+  text-decoration: underline;
 }
 body header {
   text-align: center;
