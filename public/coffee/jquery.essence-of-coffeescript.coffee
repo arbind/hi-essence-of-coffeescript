@@ -69,7 +69,7 @@ $.fn.autoAdjustAceEditorHeight = (aceEditor, options)->
     h
 
   autoAdjustHeightFunctor = (e)=>
-    return if e? and e.data.text isnt '\n' # auto adjust only on enter key or if there is no event
+    return if e? and e.data?.text isnt '\n' # auto adjust only on enter key or if there is no event
     window.clearTimeout(aceEditor.autoAdjustTimer) if aceEditor.autoAdjustTimer?
 
     trigger = ()=> # hack to keep resizing for 5 seconds after a change, allowing an editor to animate into view
