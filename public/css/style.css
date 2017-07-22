@@ -239,6 +239,14 @@ body #toc {
 body #toc h1 {
   font-size: 48px;
 }
+body #toc h1 a {
+  text-decoration: none;
+  color: #6f4e37;
+}
+body #toc h1 a:hover {
+  color: #5f3e27;
+  text-decoration: underline;
+}
 body #toc h2 {
   font-size: 40px;
 }
