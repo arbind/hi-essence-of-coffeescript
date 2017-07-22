@@ -6,6 +6,14 @@
     color: #f15d2a;
   }
 }
+@-ms-keyframes highlightinstructions {
+  0%, 100% {
+    color: #292a2f;
+  }
+  80% {
+    color: #f15d2a;
+  }
+}
 @-moz-keyframes highlightinstructions {
   0%, 100% {
     color: #292a2f;
